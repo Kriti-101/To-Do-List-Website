@@ -1,0 +1,44 @@
+body {
+    font-family: silkscreen;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:#460283;
+    .button {
+      border-radius: 12px;
+    }
+  }
+  
+  #app {
+    background-color:#a1cca5;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #49416d;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #task-list {
+    margin-bottom: 20px;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #747272;
+    margin-bottom: 10px;
+  }
+  
+  #task-input {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 12px;
+  }
+
